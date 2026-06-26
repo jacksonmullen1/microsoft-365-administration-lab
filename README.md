@@ -114,3 +114,75 @@ Configured shared mailboxes and distribution groups to support organizational co
 ![Distribution Group](screenshots/07-distribution-group.png)
 - Configured Microsoft Defender security requirements
 - Implemented enterprise identity security best practices
+
+---
+
+## 5. Identity Security
+
+Configured Microsoft Security Defaults and implemented a Conditional Access policy requiring Multi-Factor Authentication (MFA) for employee accounts.
+
+### Security Defaults
+
+![Security Defaults](screenshots/08-security-defaults.png)
+
+### Conditional Access
+
+![Conditional Access](screenshots/09-conditional-access-policy.png)
+
+---
+
+## 6. User Lifecycle Management
+
+Performed a simulated employee offboarding by blocking user sign-in, removing Microsoft 365 licensing, and revoking organizational access.
+
+![User Offboarding](screenshots/10-user-offboarding.png)
+
+---
+
+## 7. SharePoint Online Administration
+
+Created a SharePoint Team Site to simulate centralized document management for organizational departments.
+
+### Team Site
+
+![SharePoint Team Site](screenshots/11-sharepoint-site.png)
+
+### Permission Management
+
+Configured SharePoint document permissions to provide department-specific access.
+
+![SharePoint Permissions](screenshots/12-sharepoint-permissions.png)
+
+---
+
+## 8. OneDrive Administration
+
+Configured secure document sharing between users by assigning edit permissions through OneDrive.
+
+![OneDrive Sharing](screenshots/13-onedrive-sharing.png)
+
+---
+
+## 9. Microsoft Intune
+
+Configured Microsoft Intune to manage organizational security policies and Windows device settings.
+
+### Intune Dashboard
+
+![Intune Dashboard](screenshots/14-intune-home.png)
+
+### Compliance Policy
+
+Created a Windows compliance policy enforcing BitLocker, Secure Boot, TPM, Microsoft Defender Antivirus, password requirements, and assigned the policy to the **Corporate Devices** security group.
+
+![Compliance Policy Settings](screenshots/15A-Compliance-Policy-Settings.png)
+
+![Compliance Policy Assignments](screenshots/15B-Compliance-Policy-Assignments.png)
+
+### Configuration Profile
+
+Created a Windows configuration profile to standardize enterprise device settings and improve endpoint security.
+
+![Configuration Profile Overview](screenshots/16A-Configuration-Profile-Overview.png)
+
+![Configuration Profile Settings](screenshots/16B-Configuration-Settings.png)
